@@ -12,7 +12,9 @@
       </div>
       <div class="mail-link-container animated fadeInUp delay-4s">
         <div class="link-box">
-          <a href="mailto:harshdave1094@gmail.com" class="mail-link">Get In Touch</a>
+          <a href="mailto:harshdave1094@gmail.com" class="mail-link"
+            >Get In Touch</a
+          >
         </div>
       </div>
     </div>

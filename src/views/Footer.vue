@@ -6,7 +6,7 @@
     <a
       @mouseover="isHovered"
       @mouseout="isHoveredOut"
-      href="http://https://github.com/harshdave1041995/Personal-Website"
+      href="https://github.com/harshdave1041995/Personal-Website"
       target="_blank"
       class="footer-text"
       >{{ footer.text }}</a
