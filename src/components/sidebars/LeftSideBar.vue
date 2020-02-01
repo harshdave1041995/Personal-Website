@@ -1,5 +1,5 @@
 <template>
-  <div class="left-side-bar"></div>
+  <div class="left-side-bar animated fadeInLeft"></div>
 </template>
 
 <script>

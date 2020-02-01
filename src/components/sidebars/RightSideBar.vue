@@ -1,5 +1,5 @@
 <template>
-  <div class="right-side-bar"></div>
+  <div class="right-side-bar animated fadeInRight"></div>
 </template>
 
 <script>

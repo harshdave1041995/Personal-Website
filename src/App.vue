@@ -1,11 +1,13 @@
 <template>
   <div id="app">
     <LandingPage />
+    <Footer />
   </div>
 </template>
 
 <script>
 import LandingPage from "@/views/LandingPage.vue";
+import Footer from "@/views/Footer";
 
 var prevScrollpos = window.pageYOffset;
 window.onscroll = () => {
@@ -22,7 +24,8 @@ export default {
   name: "app",
   namespaced: true,
   components: {
-    LandingPage
+    LandingPage,
+    Footer
   }
 };
 </script>
