@@ -2,10 +2,10 @@
   <div class="projects-container">
     <div
       data-aos="fadeInUpBig"
-      data-aos-offset="200"
+      data-aos-offset="100"
       data-aos-delay="500"
-      data-aos-duration="1500"
-      data-aos-easing="ease-in-out-quad"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in"
       data-aos-anchor-placement="top-bottom"
       data-aos-once="true"
       class="section projects"

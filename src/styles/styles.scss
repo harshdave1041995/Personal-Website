@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700&display=swap');
 
 @font-face {
   font-family: 'Calibre Regular';
@@ -25,92 +25,92 @@
   }
   
   
-  // @font-face {
-  // font-family: 'Calibre Thin Italic';
-  // font-style: normal;
-  // font-weight: normal;
-  // src: local('Calibre Thin Italic'), url('CalibreThinItalic.woff') format('woff');
-  // }
+  @font-face {
+  font-family: 'Calibre Thin Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Calibre Thin Italic'), url('../assets/fonts/CalibreThinItalic.woff') format('woff');
+  }
   
   
-  // @font-face {
-  // font-family: 'Calibre Light';
-  // font-style: normal;
-  // font-weight: normal;
-  // src: local('Calibre Light'), url('CalibreLight.woff') format('woff');
-  // }
+  @font-face {
+  font-family: 'Calibre Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Calibre Light'), url('../assets/fonts/CalibreLight.woff') format('woff');
+  }
   
   
-  // @font-face {
-  // font-family: 'Calibre Light Italic';
-  // font-style: normal;
-  // font-weight: normal;
-  // src: local('Calibre Light Italic'), url('CalibreLightItalic.woff') format('woff');
-  // }
+  @font-face {
+  font-family: 'Calibre Light Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Calibre Light Italic'), url('../assets/fonts/CalibreLightItalic.woff') format('woff');
+  }
   
   
-  // @font-face {
-  // font-family: 'Calibre Medium';
-  // font-style: normal;
-  // font-weight: normal;
-  // src: local('Calibre Medium'), url('CalibreMedium.woff') format('woff');
-  // }
+  @font-face {
+  font-family: 'Calibre Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Calibre Medium'), url('../assets/fonts/CalibreMedium.woff') format('woff');
+  }
   
   
-  // @font-face {
-  // font-family: 'Calibre Medium Italic';
-  // font-style: normal;
-  // font-weight: normal;
-  // src: local('Calibre Medium Italic'), url('CalibreMediumItalic.woff') format('woff');
-  // }
+  @font-face {
+  font-family: 'Calibre Medium Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Calibre Medium Italic'), url('../assets/fonts/CalibreMediumItalic.woff') format('woff');
+  }
   
   
-  // @font-face {
-  // font-family: 'Calibre Semibold';
-  // font-style: normal;
-  // font-weight: normal;
-  // src: local('Calibre Semibold'), url('CalibreSemibold.woff') format('woff');
-  // }
+  @font-face {
+  font-family: 'Calibre Semibold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Calibre Semibold'), url('../assets/fonts/CalibreSemibold.woff') format('woff');
+  }
   
   
-  // @font-face {
-  // font-family: 'Calibre Semibold Italic';
-  // font-style: normal;
-  // font-weight: normal;
-  // src: local('Calibre Semibold Italic'), url('CalibreSemiboldItalic.woff') format('woff');
-  // }
+  @font-face {
+  font-family: 'Calibre Semibold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Calibre Semibold Italic'), url('../assets/fonts/CalibreSemiboldItalic.woff') format('woff');
+  }
   
   
-  // @font-face {
-  // font-family: 'Calibre Bold';
-  // font-style: normal;
-  // font-weight: normal;
-  // src: local('Calibre Bold'), url('CalibreBold.woff') format('woff');
-  // }
+  @font-face {
+  font-family: 'Calibre Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Calibre Bold'), url('../assets/fonts/CalibreBold.woff') format('woff');
+  }
   
   
-  // @font-face {
-  // font-family: 'Calibre Bold Italic';
-  // font-style: normal;
-  // font-weight: normal;
-  // src: local('Calibre Bold Italic'), url('CalibreBoldItalic.woff') format('woff');
-  // }
+  @font-face {
+  font-family: 'Calibre Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Calibre Bold Italic'), url('../assets/fonts/CalibreBoldItalic.woff') format('woff');
+  }
   
   
-  // @font-face {
-  // font-family: 'Calibre Black';
-  // font-style: normal;
-  // font-weight: normal;
-  // src: local('Calibre Black'), url('CalibreBlack.woff') format('woff');
-  // }
+  @font-face {
+  font-family: 'Calibre Black';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Calibre Black'), url('../assets/fonts/CalibreBlack.woff') format('woff');
+  }
   
   
-  // @font-face {
-  // font-family: 'Calibre Black Italic';
-  // font-style: normal;
-  // font-weight: normal;
-  // src: local('Calibre Black Italic'), url('CalibreBlackItalic.woff') format('woff');
-  // }
+  @font-face {
+  font-family: 'Calibre Black Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Calibre Black Italic'), url('../assets/fonts/CalibreBlackItalic.woff') format('woff');
+  }
 
 * {
     box-sizing: border-box;
@@ -151,13 +151,11 @@ img::selection {
     align-items: center;
     position: fixed;
     top: 0px;
-    // box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -10px;
     transform: translateY(0px);
     z-index: 99 !important;
     filter: none !important;
     pointer-events: auto !important;
     user-select: auto !important;
-    // padding: 0px 50px;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
     transition-delay: 100ms;
   }
@@ -218,13 +216,16 @@ img::selection {
     font-size: 13px;
     text-decoration: none;
     color: rgb(204, 214, 246);
-    margin-right: 20px;
+    margin-right: 25px;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   }
   .links:hover {
     color: rgb(100, 255, 218);
   }
 
+  .resume-container {
+    padding-right: 20px;
+  }
   .resume {
     color: rgb(100, 255, 218);
     background-color: transparent;
@@ -238,7 +239,7 @@ img::selection {
     border-color: rgb(100, 255, 218);
     border-image: initial;
     border-radius: 3px;
-    padding: 0.75rem 1rem;
+    padding: 0.65rem 1.1rem;
     text-decoration: none;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   }
@@ -255,14 +256,12 @@ img::selection {
     border-color: rgb(100, 255, 218);
     border-image: initial;
     border-radius: 3px;
-    padding: 0.75rem 1rem;
+    padding: 0.65rem 1.1rem;
     text-decoration: none;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   }
   .content {
     width: 100%;
-    // height: 100%;
-    // padding-top: 15vh;
     display: flex;
     justify-content: flex-start;
   }
@@ -283,14 +282,19 @@ img::selection {
     flex-direction: column;
     justify-content: center;
   }
-  .main-content .section {
+  .section {
     width: 100%;
-    padding: 20vh 3vw;
+    padding: 15vh 3vw;
     min-height: 100vh;
     text-align: left;
+    visibility: visible;
+    opacity: 1;
+    // transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    // transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+    outline: none;
   }
   .section.intro {
-    padding: 15vh 3vw;
+    padding: 10vh 3vw;
   }
   .right-side-bar {
     width: 15%;
@@ -311,14 +315,14 @@ img::selection {
     line-height: 1.1;
     margin: 0px;
     color: rgb(204, 214, 246);
-    font-weight: 800;
+    font-weight: bold;
     margin-bottom: 5px;
   }
   .subheading {
       font-size: 70px;
       line-height: 1.1;
       color: rgb(136, 146, 176);
-      font-weight: 800;
+      font-weight: bold;
       margin-bottom: 10px;
   }
   .intro-description {
@@ -330,20 +334,12 @@ img::selection {
     counter-reset: section-heading;
   }
 
-  .section {
-    visibility: visible;
-    opacity: 1;
-    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-    transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
-    outline: none;
-  }
-
   .section-heading {
     display: flex;
     align-items: center;
     width: 100%;
     white-space: nowrap;
-    font-size: 28px;
+    font-size: 31px;
     font-weight: 600;
     margin: 10px 0px 40px;
   }
@@ -366,7 +362,7 @@ img::selection {
     width: 20vw;
     background-color: rgb(45, 57, 82);
     position: relative;
-    top: 0px;
+    bottom: 4px;
     margin-left: 20px;
   }
 
@@ -415,7 +411,7 @@ img::selection {
   }
 
   .link-box {
-    margin-top: 50px;
+    margin-top: 80px;
   }
 
   .mail-link {
@@ -430,7 +426,7 @@ img::selection {
     border-color: rgb(100, 255, 218);
     border-image: initial;
     border-radius: 3px;
-    padding: 1.25rem 1.75rem;
+    padding: 1.15rem 1.65rem;
     text-decoration: none;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   }
@@ -446,7 +442,7 @@ img::selection {
     border-color: rgb(100, 255, 218);
     border-image: initial;
     border-radius: 3px;
-    padding: 1.25rem 1.75rem;
+    padding: 1.15rem 1.65rem;
     text-decoration: none;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   }
@@ -462,7 +458,7 @@ img::selection {
     background-color: rgb(100, 255, 218);
     color: rgb(10, 25, 47);
     text-align: center;
-    // cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   }
   .footer-container-hovered {
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
@@ -475,13 +471,76 @@ img::selection {
     background-color: rgb(10, 25, 47);
     color: rgb(100, 255, 218);
     text-align: center;
-    // cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   }
   .footer-text {
     text-decoration: none;
     color: rgb(10, 25, 47);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   }
   .footer-text:hover {
     text-decoration: none;
     color: rgb(100, 255, 218);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  }
+  .toggle-navbar-icon {
+    display: none;
+  }
+
+  @media only screen and (max-width: 768px) {
+.toggle-navbar-icon {
+  display: block;
+  width: 9vh;
+  height: 9vh;
+}
+.hamburger {
+  width: 9vh;
+  height: 9vh;
+  padding-right: 4vh;
+}
+.right-nav-bar {
+  // width: 80%;
+  display: none;
+  // justify-content: flex-end;
+  // align-items: center;
+}
+.intro-line {
+  font-size: 14px;
+}
+.name {
+  font-size: 50px;
+}
+.subheading {
+  font-size: 40px;
+}
+.intro-description {
+  font-size: 17px;
+  text-align: left;
+}
+.about-content {
+  padding-left: 45px;
+  font-size: 17px;
+}
+.about .about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-content .info-text {
+  width: 100%;
+  padding-right: 0;
+  padding-bottom: 5vh;
+}
+.about-content .info-pic {
+  width: 100%;
+  padding-left: 0;
+  padding-top: 5vh;
+  justify-content: start;
+}
+.section-heading {
+  font-size: 24px;
+}
+.footer-container {
+  font-size: 14px;
+}
   }
