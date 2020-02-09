@@ -1,5 +1,6 @@
 import Vue from "vue";
 import VueScrollTo from "vue-scrollto";
+import * as vClickOutside from 'v-click-outside-x';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import App from "./App.vue";
@@ -21,6 +22,8 @@ Vue.use(VueScrollTo, {
   x: false,
   y: true
 });
+
+Vue.use(vClickOutside);
 
 new Vue({
   created() {

@@ -17,14 +17,14 @@
     </a>
     <div @click="toggleNavbar" class="toggle-navbar-icon">
       <img
-        v-if="!showNav"
+        v-if="!navState"
         src="@/assets/menu.svg"
         class="hamburger"
         alt="menu"
       />
       <img v-else src="@/assets/close.svg" class="close" alt="menu-close" />
     </div>
-    <div :class="[showNav ? rightNavbarShow : rightNavbarHide]">
+    <div :class="[navState ? rightNavbarShow : rightNavbarHide]">
       <ol class="nav-links">
         <li v-for="(tab, index) in tabs" :key="index">
           <span class="counter">{{ tab.counter }}</span>
@@ -54,11 +54,12 @@
 export default {
   name: "NavBar",
   namespaced: true,
+  props: ["navState"],
   data() {
     return {
       mouseOverLogo: false,
       scrollPosition: null,
-      showNav: false,
+      showNav: this.navState,
       navBar: "nav-bar",
       navBarScrolled: "nav-bar-scrolled",
       rightNavbarShow: "right-nav-bar-toggled",
@@ -94,15 +95,26 @@ export default {
     updateScroll() {
       this.scrollPosition = window.scrollY;
     },
-    toggleNavbar() {
-      this.showNav = !this.showNav;
-    },
     setFalse() {
       this.showNav = false;
+      document.body.style.overflowY = "auto";
+      this.$emit("navbarToggled", this.showNav);
+    },
+    toggleNavbar() {
+      this.showNav = !this.showNav;
+      if (this.showNav === true) {
+        document.body.style.overflowY = "hidden";
+      } else {
+        document.body.style.overflowY = "auto";
+      }
+      this.$emit("navbarToggled", this.showNav);
     }
   },
   mounted() {
     window.addEventListener("scroll", this.updateScroll);
+  },
+  beforeUpdate() {
+    this.showNav = this.navState;
   }
 };
 </script>

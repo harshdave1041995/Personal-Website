@@ -12,6 +12,7 @@
     "aos": "^2.3.4",
     "core-js": "^3.4.4",
     "register-service-worker": "^1.6.2",
+    "v-click-outside-x": "^4.1.0",
     "vue": "^2.6.10",
     "vue-scrollto": "^2.17.1"
   },

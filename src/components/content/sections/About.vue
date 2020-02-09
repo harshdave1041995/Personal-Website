@@ -22,11 +22,11 @@
           </p>
           <p class="p2">
             Shortly after graduating from
-            <a href="https://www.gtu.ac.in" id="university-link"
+            <a href="https://www.gtu.ac.in" target="_blank" id="university-link"
               >Gujarat Technological University</a
             >
             I joined the development team at
-            <a href="https://www.ashutec.com/" id="company-name"
+            <a href="https://www.ashutec.com/" target="_blank" id="company-name"
               >Ashutec Solutions</a
             >, where I work on a wide variety of interesting and meaningful
             projects on a daily basis.

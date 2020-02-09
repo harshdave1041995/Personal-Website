@@ -1,7 +1,11 @@
 <template>
   <div class="landing-page">
     <div>
-      <NavBar />
+      <NavBar
+        :navState="navbarState"
+        v-click-outside="hideNavbar"
+        @navbarToggled="navBarState($event)"
+      />
     </div>
     <div class="content">
       <div v-if="screenWidth > 768" class="sidebars">
@@ -9,7 +13,7 @@
         <RightSideBar class="right-side-bar"></RightSideBar>
       </div>
       <div class="main-content">
-        <MainContent />
+        <MainContent @click="hideNavbar" />
       </div>
     </div>
   </div>
@@ -32,12 +36,20 @@ export default {
   },
   data() {
     return {
-      screenWidth: null
+      screenWidth: null,
+      navbarState: null
+      // hideNavBar: null
     };
   },
-  // computed() {
-    
-  // },
+  methods: {
+    hideNavbar() {
+      this.navbarState = false;
+      document.body.style.overflowY = "auto";
+    },
+    navBarState(navbarState) {
+      this.navbarState = navbarState;
+    }
+  },
   mounted() {
     let screenWidth = window.innerWidth;
     this.screenWidth = screenWidth;

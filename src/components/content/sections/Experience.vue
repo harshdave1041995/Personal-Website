@@ -34,6 +34,7 @@
                 ><span style="color: rgb(100, 255, 218)">&nbsp;@&nbsp;</span>
                 <a
                   :href="companies[activeTab].description.link"
+                  target="_blank"
                   class="company-link"
                   >{{ companies[activeTab].description.companyName }}</a
                 ></span

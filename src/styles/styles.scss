@@ -125,6 +125,7 @@ body {
     font-family: 'Calibre Regular', "San Francisco", "SF Pro Text", 'Lato', "Helvetica Neue", "Segoe UI", Arial, sans-serif;
     font-size: 20px;
     margin: 0px;
+    // height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -133,12 +134,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0px 0px 10px;
 }
 
-div::selection,
-p::selection,
-a::selection,
-li::selection,
-span::selection,
-img::selection {
+*::selection {
   background-color: rgb(136, 152, 173);
 }
 
@@ -668,11 +664,13 @@ img::selection {
   z-index: 1000 !important;
 }
 .hamburger {
+  position: fixed;
   width: 7vh;
   height: 9vh;
   cursor: pointer;
 }
 .close {
+  position: fixed;
   width: 5vh;
   height: 9vh;
   cursor: pointer;
@@ -681,9 +679,9 @@ img::selection {
   display: none;
 }
 .right-nav-bar-toggled {
-  width: 50vw;
+  width: 70vw;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   display: flex;
@@ -807,6 +805,102 @@ img::selection {
 }
 .section#experience {
   padding: 15vh 3vw;
+}
+.experience-content .info-text {
+  display: flex;
+  flex-direction: column;
+  // justify-content: flex-start;
+}
+.experience-content .info-text .company-list {
+  width: 100%;
+  overflow-x: auto;
+  padding-right: 0;
+  margin-bottom: 10px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+// .company-list .company:hover,
+// .company-list .company:focus {
+//   background-color: #8892b026;
+//   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+// }
+.company-list .company:hover,
+.company-list .company:focus,
+.company-list .company:active {
+  background-color: #8892b026;
+  color: rgb(100, 255, 218);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  outline: 0px;
+}
+.company-list .company {
+  font-size: 12px;
+  line-height: 16px;
+  border-left: none;
+  border-bottom: rgb(96, 106, 134) solid 2px;
+}
+// .company-list .active-company:hover,
+// .company-list .active-company:focus {
+//   background-color: #8892b026;
+//   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+// }
+.company-list .active-company:hover,
+.company-list .active-company:focus,
+.company-list .active-company:active {
+  background-color: #8892b026;
+  color: rgb(100, 255, 218);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  outline: 0px;
+}
+.company-list .active-company {
+  font-size: 12px;
+  line-height: 16px;
+  border-left: none;
+  border-bottom: rgba(100, 255, 218, 1) solid 2px;
+}
+.experience-content .info-text .company-info {
+  width: 100%;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+}
+.company-info .company-title {
+  color: rgb(204, 214, 246);
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+.company-info .work-dates {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.company-info .work-details {
+  list-style: none;
+}
+.company-info .company-link {
+  color: rgb(100, 255, 218);
+  text-decoration: none;
+}
+.company-info .company-link:hover {
+  text-decoration: underline;
+}
+.company-info .work-details .description-line::before {
+  content: "▹";
+  position: absolute;
+  left: 0px;
+  top: 4px;
+  color: rgb(100, 255, 218);
+  font-size: 14px;
+  line-height: 12px;
+}
+.company-info .work-details .description-line {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 20px;
 }
 .footer-container,
 .footer-container-hovered {
