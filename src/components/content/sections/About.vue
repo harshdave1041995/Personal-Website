@@ -22,13 +22,14 @@
           </p>
           <p class="p2">
             Shortly after graduating from
-            <a href="https://gtu.ac.in" id="university-link"
+            <a href="https://www.gtu.ac.in" id="university-link"
               >Gujarat Technological University</a
             >
             I joined the development team at
-            <a href="#" id="company-name">Ashutec Solutions</a>, where I work on
-            a wide variety of interesting and meaningful projects on a daily
-            basis.
+            <a href="https://www.ashutec.com/" id="company-name"
+              >Ashutec Solutions</a
+            >, where I work on a wide variety of interesting and meaningful
+            projects on a daily basis.
           </p>
           <p class="list-heading">
             Here are a few technologies I've been working with recently:

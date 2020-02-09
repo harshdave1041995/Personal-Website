@@ -134,6 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 div::selection,
+p::selection,
 a::selection,
 li::selection,
 span::selection,
@@ -373,6 +374,13 @@ img::selection {
     justify-content: space-between;
     width: 100%;
   }
+  .experience .about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+  }
   #university-link,
   #company-name {
     text-decoration: none;
@@ -497,6 +505,119 @@ img::selection {
     padding: 1.15rem 1.65rem;
     text-decoration: none;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  }
+  .section#experience {
+    padding: 15vh 10vw;
+  }
+  .experience-content .info-text {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .experience-content .info-text .company-list {
+    width: minmax(20%, 25%);
+    padding-right: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .company-list .company:hover,
+  .company-list .company:focus {
+    background-color: #8892b026;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  }
+  .company-list .company:hover,
+  .company-list .company:focus,
+  .company-list .company:active {
+    color: rgb(100, 255, 218);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    outline: 0px;
+  }
+  .company-list .company {
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(96, 106, 134);
+    background-color: transparent;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 20px;
+    border: none;
+    border-left: rgb(96, 106, 134) solid 2px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  }
+  .company-list .active-company:hover,
+  .company-list .active-company:focus {
+    background-color: #8892b026;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  }
+  .company-list .active-company:hover,
+  .company-list .active-company:focus,
+  .company-list .active-company:active {
+    color: rgb(100, 255, 218);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    outline: 0px;
+  }
+  .company-list .active-company {
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: transparent;
+    outline: transparent;
+    padding: 10px 20px;
+    color: rgb(100, 255, 218);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 20px;
+    border: none;
+    border-left: rgba(100, 255, 218, 1) solid 2px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  }
+  .experience-content .info-text .company-info {
+    width: 70%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .company-info .company-title {
+    color: rgb(204, 214, 246);
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    padding-top: 10px;
+  }
+  .company-info .work-dates {
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .company-info .work-details {
+    list-style: none;
+  }
+  .company-info .company-link {
+    color: rgb(100, 255, 218);
+    text-decoration: none;
+  }
+  .company-info .company-link:hover {
+    text-decoration: underline;
+  }
+  .company-info .work-details .description-line::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    top: 4px;
+    color: rgb(100, 255, 218);
+    font-size: 14px;
+    line-height: 12px;
+  }
+  .company-info .work-details .description-line {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    line-height: 22px;
   }
 
   .footer-container {
@@ -683,6 +804,9 @@ img::selection {
 }
 .section-heading {
   font-size: 24px;
+}
+.section#experience {
+  padding: 15vh 3vw;
 }
 .footer-container,
 .footer-container-hovered {

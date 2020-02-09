@@ -9,7 +9,11 @@
       class="logo"
       @click="reloadPage"
     >
-      <img class="logo-image" src="@/assets/website-logo_burned.png" alt="Logo" />
+      <img
+        class="logo-image"
+        src="@/assets/website-logo_burned.png"
+        alt="Logo"
+      />
     </a>
     <div @click="toggleNavbar" class="toggle-navbar-icon">
       <img
