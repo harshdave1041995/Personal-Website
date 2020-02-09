@@ -189,7 +189,7 @@ img::selection {
   .logo-image {
     width: 6vh;
     height: 6vh;
-    object-fit: cover;
+    object-fit: contain;
   }
   .right-nav-bar {
     width: 80%;
@@ -368,14 +368,64 @@ img::selection {
 
   .about .about-content {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
+  }
+  #university-link,
+  #company-name {
+    text-decoration: none;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    color: rgb(100, 255, 218);
+  }
+  #university-link:hover,
+  #company-name:hover {
+    color: rgb(100, 255, 218);
+    text-decoration: underline;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   }
 
   .about-content .info-text {
     width: 55%;
     padding-right: 5vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-content .info-text .p1,
+  .about-content .info-text .p2,
+  .about-content .info-text .list-heading {
+    margin-bottom: 15px;
+  }
+  .about-content .info-text .skill-grid {
+    display: grid;
+    grid-template-columns: minmax(140px, 190px) minmax(140px, 190px);
+    grid-template-rows: auto;
+    width: 100%;
+    overflow: hidden;
+      padding: 0px;
+      margin: 20px 0px 0px;
+    list-style: none;
+    align-content: center;
+  }
+  .skill-grid .skill::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    top: 2px;
+    color: rgb(100, 255, 218);
+    font-size: 14px;
+    line-height: 12px;
+  }
+  .skill-grid .skill {
+    position: relative;
+    margin-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 10px;
+      font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+      font-size: 13px;
+      color: rgb(136, 146, 176);
+      // align-self: center;
   }
   .about-content .info-pic {
     width: 45%;
@@ -385,21 +435,23 @@ img::selection {
     align-items: flex-start;
   }
   .pic-container {
-    background-image: url("../assets/info-pic.jpg");
+    background-image: url("../assets/info-pic.png");
     background-size: 43vh;
     width: 43vh;
     height: 43vh;
-    background-color: rgba(100, 255, 218, 0.9);
-    background-blend-mode: luminosity;
+    background-color: rgba(100, 255, 218, 1);
+    background-blend-mode: multiply;
+    filter: grayscale(40%) contrast(1);
     cursor: pointer;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   }
   .pic-container:hover {
-    background-image: url("../assets/info-pic.jpg");
+    background-image: url("../assets/info-pic.png");
     background-size: 45vh;
     width: 45vh;
     height: 45vh;
     background-color: rgb(100, 255, 218, 0);
+    filter: none;
     cursor: pointer;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   }
@@ -547,6 +599,20 @@ img::selection {
 .resume {
   margin-left: 0;
 }
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main-content {
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  padding-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .intro-line {
   font-size: 14px;
 }
@@ -561,7 +627,7 @@ img::selection {
   text-align: left;
 }
 .about-content {
-  padding-left: 45px;
+  // padding-left: 45px;
   font-size: 17px;
 }
 .about .about-content {
@@ -573,6 +639,41 @@ img::selection {
   width: 100%;
   padding-right: 0;
   padding-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+}
+.about-content .info-text .p1,
+.about-content .info-text .p2,
+.about-content .info-text .list-heading {
+  margin-bottom: 15px;
+}
+.about-content .info-text .skill-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  width: 100%;
+  overflow: hidden;
+    padding: 0px;
+    margin: 20px 0px 0px;
+  list-style: none;
+  align-content: center;
+}
+.skill-grid .skill::before {
+  content: "▹";
+  color: rgb(100, 255, 218);
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 14px;
+    line-height: 12px;
+}
+.skill-grid .skill {
+  position: relative;
+  margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: 13px;
+    color: rgb(136, 146, 176);
 }
 .about-content .info-pic {
   width: 100%;

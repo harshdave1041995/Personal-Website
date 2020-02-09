@@ -14,18 +14,35 @@
       <h3 class="section-heading">About Me</h3>
       <div class="about-content">
         <div class="info-text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          <p class="p1">
+            Hello! I'm Harsh, a software engineer based in Ahmedabad, who enjoys
+            building things that live on the internet. I develop websites and
+            web apps that provide intuitive, pixel-perfect user interfaces with
+            efficient and modern backends.
+          </p>
+          <p class="p2">
+            Shortly after graduating from
+            <a href="https://gtu.ac.in" id="university-link"
+              >Gujarat Technological University</a
+            >
+            I joined the development team at
+            <a href="#" id="company-name">Ashutec Solutions</a>, where I work on
+            a wide variety of interesting and meaningful projects on a daily
+            basis.
+          </p>
+          <p class="list-heading">
+            Here are a few technologies I've been working with recently:
+          </p>
+          <ul class="skill-grid">
+            <li v-for="(skill, index) in skills" :key="index" class="skill">
+              {{ skill }}
+            </li>
+          </ul>
         </div>
         <div class="info-pic">
-          <a href="https://www.github.com/harshdave1041995" target="_blank" class="pic-container"></a>
+          <a href="https://www.github.com/harshdave1041995" target="_blank">
+            <div class="pic-container"></div>
+          </a>
         </div>
       </div>
     </div>
@@ -35,7 +52,21 @@
 <script>
 export default {
   name: "About",
-  namespaced: true
+  namespaced: true,
+  data() {
+    return {
+      skills: [
+        "JavaScript (ES6+)",
+        "HTML & (S)CSS",
+        "React",
+        "Vue",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "NativeScript"
+      ]
+    };
+  }
 };
 </script>
 

@@ -4,7 +4,7 @@
       <NavBar />
     </div>
     <div class="content">
-      <div class="sidebars">
+      <div v-if="screenWidth > 768" class="sidebars">
         <LeftSideBar class="left-side-bar"></LeftSideBar>
         <RightSideBar class="right-side-bar"></RightSideBar>
       </div>
@@ -29,6 +29,18 @@ export default {
     LeftSideBar,
     RightSideBar,
     MainContent
+  },
+  data() {
+    return {
+      screenWidth: null
+    };
+  },
+  // computed() {
+    
+  // },
+  mounted() {
+    let screenWidth = window.innerWidth;
+    this.screenWidth = screenWidth;
   }
 };
 </script>
