@@ -36,9 +36,8 @@ export default {
   },
   data() {
     return {
-      screenWidth: null,
+      screenWidth: window.innerWidth,
       navbarState: null
-      // hideNavBar: null
     };
   },
   methods: {
@@ -49,11 +48,21 @@ export default {
     navBarState(navbarState) {
       this.navbarState = navbarState;
     }
-  },
-  mounted() {
-    let screenWidth = window.innerWidth;
-    this.screenWidth = screenWidth;
   }
+  // computed: {
+  //   renderSidebars: () => {
+  //     return this.screenWidth > 768;
+  //   }
+  // },
+  // created() {
+  //   this.screenWidth = window.innerWidth;
+  // },
+  // mounted() {
+  //   window.addEventListener("resize", () => {
+  //     this.screenWidth = window.innerWidth;
+  //     console.log(this.renderSidebars);
+  //   });
+  // }
 };
 </script>
 
