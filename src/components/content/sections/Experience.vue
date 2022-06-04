@@ -75,41 +75,83 @@ export default {
             companyName: "Ashutec Solutions",
             link: "https://www.ashutec.com/",
             startDate: "August 2019",
-            lastDate: "March 2020",
-            details: [
-              "Developed and maintained code for in-house and client websites primarily using Vue.js, React, and Javascript",
-              "Manually tested sites in various browsers and mobile devices to ensure cross - browser compatibility and responsiveness"
-            ]
-          }
-        },
-        {
-          name: "Alchemy",
-          description: {
-            position: "Frontend Developer",
-            companyName: "Alchemy Technologies",
-            link: "https://www.alchemytech.ca/",
-            startDate: "April 2020",
-            lastDate: "July 2021",
-            details: [
-              "Developed and shipped highly interactive web applications for clients using React, Redux, MaterialUI, and Tailwind",
-              "Interfaced with clients on a monthly basis, providing project updates"
-            ]
-          }
-        },
-        {
-          name: "ConvertCart",
-          description: {
-            position: "Software Developer",
-            companyName: "ConvertCart",
-            link: "https://www.convertcart.com/",
-            startDate: "August 2021",
             lastDate: "Present",
             details: [
-              "Write modern, performant, maintainable code for a diverse array of SaaS Products",
-              "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, React, and Node"
+              "Write modern, performant, maintainable code for a diverse array of client and internal projects",
+              "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Vue, React, and Firebase"
             ]
           }
         }
+        // {
+        //   name: "Ashutec",
+        //   description: {
+        //     position: "Software Engineer",
+        //     companyName: "Ashutec Solutions",
+        //     link: "https://www.ashutec.com/",
+        //     startDate: "August 2019",
+        //     lastDate: "Present",
+        //     details: [
+        //       "Write modern, performant, maintainable code for a diverse array of client and internal projects",
+        //       "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Vue, React, and Firebase"
+        //     ]
+        //   }
+        // },
+        // {
+        //   name: "Ashutec",
+        //   description: {
+        //     position: "Software Engineer",
+        //     companyName: "Ashutec Solutions",
+        //     link: "https://www.ashutec.com/",
+        //     startDate: "August 2019",
+        //     lastDate: "Present",
+        //     details: [
+        //       "Write modern, performant, maintainable code for a diverse array of client and internal projects",
+        //       "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Vue, React, and Firebase"
+        //     ]
+        //   }
+        // },
+        // {
+        //   name: "Ashutec",
+        //   description: {
+        //     position: "Software Engineer",
+        //     companyName: "Ashutec Solutions",
+        //     link: "https://www.ashutec.com/",
+        //     startDate: "August 2019",
+        //     lastDate: "Present",
+        //     details: [
+        //       "Write modern, performant, maintainable code for a diverse array of client and internal projects",
+        //       "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Vue, React, and Firebase"
+        //     ]
+        //   }
+        // },
+        // {
+        //   name: "Ashutec",
+        //   description: {
+        //     position: "Software Engineer",
+        //     companyName: "Ashutec Solutions",
+        //     link: "https://www.ashutec.com/",
+        //     startDate: "August 2019",
+        //     lastDate: "Present",
+        //     details: [
+        //       "Write modern, performant, maintainable code for a diverse array of client and internal projects",
+        //       "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Vue, React, and Firebase"
+        //     ]
+        //   }
+        // },
+        // {
+        //   name: "Ashutec",
+        //   description: {
+        //     position: "Software Engineer",
+        //     companyName: "Ashutec Solutions",
+        //     link: "https://www.ashutec.com/",
+        //     startDate: "August 2019",
+        //     lastDate: "Present",
+        //     details: [
+        //       "Write modern, performant, maintainable code for a diverse array of client and internal projects",
+        //       "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Vue, React, and Firebase"
+        //     ]
+        //   }
+        // }
       ],
       activeTab: 0,
       activeClass: "active-company",

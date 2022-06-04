@@ -135,8 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 *::selection {
-  background-color: #233554;
-  color: #ccd6f6;
+  background-color: rgb(136, 152, 173);
 }
 
 .nav-bar {
@@ -268,42 +267,9 @@ h1, h2, h3, h4, h5, h6 {
   }
   .left-side-bar {
     width: 10%;
-    height: 85vh;
+    height: 100vh;
     position: fixed;
     top: 15vh;
-  }
-  .left-side-bar-container {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: end;
-    align-items: center;
-    height: 85vh;
-    width: 100%;
-    gap: 24px;
-
-    .vertical-sidebar-line {
-      width: 0px;
-      height: 15vh;
-      border: solid 1px #a8b2d1;
-    }
-    .social-link {
-      width: 32px;
-      height: 32px;
-      text-decoration: none;
-
-      img {
-        width: 100%;
-        height: 100%;
-        background-color: rgb(204, 214, 246);
-        border-radius: 8px;
-        padding: 4px;
-        transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-
-        &:hover {
-            background-color: #64ffda;
-          }
-      }
-    }
   }
   .main-content {
     width: 80%;
@@ -329,40 +295,10 @@ h1, h2, h3, h4, h5, h6 {
   }
   .right-side-bar {
     width: 10%;
-    height: 85vh;
+    height: 100vh;
     position: fixed;
     top: 15vh;
     left: 90%;
-  }
-  .right-side-bar-container {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: end;
-    align-items: center;
-    height: 85vh;
-    width: 100%;
-
-    .vertical-sidebar-line {
-      width: 0px;
-      height: 15vh;
-      border: solid 1px #a8b2d1;
-    }
-
-    .sidebar-mail-link {
-      margin: 20px auto;
-      padding: 10px;
-      font-family: monospace;
-      font-size: 12px;
-      line-height: 18px;
-      letter-spacing: 0.1em;
-      writing-mode: vertical-rl;
-      text-decoration: none;
-      color: rgb(168, 178, 209);
-
-      &:hover {
-        color: rgb(100, 255, 218);
-      }
-    }
   }
   .intro-line {
     color: rgb(100, 255, 218);

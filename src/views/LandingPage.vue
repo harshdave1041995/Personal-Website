@@ -49,6 +49,20 @@ export default {
       this.navbarState = navbarState;
     }
   }
+  // computed: {
+  //   renderSidebars: () => {
+  //     return this.screenWidth > 768;
+  //   }
+  // },
+  // created() {
+  //   this.screenWidth = window.innerWidth;
+  // },
+  // mounted() {
+  //   window.addEventListener("resize", () => {
+  //     this.screenWidth = window.innerWidth;
+  //     console.log(this.renderSidebars);
+  //   });
+  // }
 };
 </script>
 

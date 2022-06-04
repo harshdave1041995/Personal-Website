@@ -1,18 +1,18 @@
-import Vue from 'vue';
-import VueScrollTo from 'vue-scrollto';
+import Vue from "vue";
+import VueScrollTo from "vue-scrollto";
 import * as vClickOutside from 'v-click-outside-x';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import App from './App.vue';
-import './registerServiceWorker';
-import '@/styles/styles.scss';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import App from "./App.vue";
+import "./registerServiceWorker";
+import "@/styles/styles.scss";
 
 Vue.config.productionTip = false;
 
 Vue.use(VueScrollTo, {
-  container: 'body',
+  container: "body",
   duration: 500,
-  easing: 'ease-in',
+  easing: "ease-in",
   offset: 0,
   force: true,
   cancelable: true,
@@ -20,7 +20,7 @@ Vue.use(VueScrollTo, {
   onDone: false,
   onCancel: false,
   x: false,
-  y: true,
+  y: true
 });
 
 Vue.use(vClickOutside);
@@ -30,8 +30,8 @@ new Vue({
     AOS.init({
       useClassNames: true,
       initClassName: false,
-      animatedClassName: 'animated',
+      animatedClassName: "animated"
     });
   },
-  render: (h) => h(App),
-}).$mount('#app');
+  render: h => h(App)
+}).$mount("#app");

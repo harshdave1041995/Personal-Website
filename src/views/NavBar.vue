@@ -41,11 +41,10 @@
         <a
           @click="setFalse"
           class="resume"
-          href="https://drive.google.com/file/d/17Vm80dhi-dRRGkbU9U1t5QFOhsI_3GpA/view?usp=sharing"
+          href="https://drive.google.com/file/d/1VqW6hM8SP7qII68HtRJXKVSPZ6zIoJy9/view?usp=sharing"
           target="_blank"
+          >Resume</a
         >
-          Resume
-        </a>
       </div>
     </div>
   </div>
