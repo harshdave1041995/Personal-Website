@@ -7,7 +7,7 @@
         I build things for the web.
       </div>
       <div class="intro-description animated fadeInUp delay-3s">
-        I'm a software engineer based in Ahmedabad specializing in building and
+        I'm a software engineer based in Bengaluru specializing in building and
         occasionally designing high-quality websites and applications.
       </div>
       <div class="mail-link-container animated fadeInUp delay-4s">
