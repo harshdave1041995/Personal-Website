@@ -1,34 +1,25 @@
 <template>
   <div class="about-container">
-    <div
-      data-aos="fadeInUpBig"
-      data-aos-offset="100"
-      data-aos-delay="500"
-      data-aos-duration="1000"
-      data-aos-easing="ease-in"
-      data-aos-anchor-placement="top-bottom"
-      data-aos-once="true"
-      class="section about"
-      id="about"
-    >
+    <div data-aos="fadeInUpBig" data-aos-offset="100" data-aos-delay="500" data-aos-duration="1000"
+      data-aos-easing="ease-in" data-aos-anchor-placement="top-bottom" data-aos-once="true" class="section about"
+      id="about">
       <h3 class="section-heading">About Me</h3>
       <div class="about-content">
         <div class="info-text">
           <p class="p1">
-            Hello! I'm Harsh, a software engineer based in Ahmedabad, who enjoys
+            Hello! I'm Harsh, a software engineer based in Bengaluru, who enjoys
             building things that live on the internet. I develop websites and
             web apps that provide intuitive, pixel-perfect user interfaces with
             efficient and modern backends.
           </p>
           <p class="p2">
             Shortly after graduating from
-            <a href="https://www.gtu.ac.in" target="_blank" id="university-link"
-              >Gujarat Technological University</a
-            >
+            <a href="https://www.gtu.ac.in" target="_blank" id="university-link">Gujarat Technological University</a>
             I joined the development team at
-            <a href="https://www.ashutec.com/" target="_blank" id="company-name"
-              >Ashutec Solutions</a
-            >, where I work on a wide variety of interesting and meaningful
+            <a href="https://www.ashutec.com/" target="_blank" id="company-name">Ashutec Solutions</a>. Currently I work
+            at
+            <a href="https://www.convertcart.com/" target="_blank" id="company-name">ConvertCart</a>, where I work on a
+            wide variety of interesting and meaningful
             projects on a daily basis.
           </p>
           <p class="list-heading">
@@ -57,18 +48,21 @@ export default {
   data() {
     return {
       skills: [
-        "JavaScript (ES6+)",
         "HTML & (S)CSS",
+        "JavaScript (ES6+)",
+        "Typescript",
+        "Next.js",
         "React",
-        "Vue",
+        "Redux",
+        "React Native",
+        "Figma & Adobe XD",
         "Node.js",
-        "Express",
-        "MongoDB",
-        "NativeScript"
+        "Express"
       ]
     };
   }
 };
 </script>
 
-<style></style>
+<style>
+</style>
