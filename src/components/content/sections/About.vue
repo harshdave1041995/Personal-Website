@@ -15,7 +15,7 @@
       <div class="about-content">
         <div class="info-text">
           <p class="p1">
-            Hello! I'm Harsh, a software engineer based in Ahmedabad, who enjoys
+            Hello! I'm Harsh, a software engineer based in Bengaluru, who enjoys
             building things that live on the internet. I develop websites and
             web apps that provide intuitive, pixel-perfect user interfaces with
             efficient and modern backends.
@@ -28,6 +28,12 @@
             I joined the development team at
             <a href="https://www.ashutec.com/" target="_blank" id="company-name"
               >Ashutec Solutions</a
+            >. Currently I work at
+            <a
+              href="https://www.convertcart.com/"
+              target="_blank"
+              id="company-name"
+              >ConvertCart</a
             >, where I work on a wide variety of interesting and meaningful
             projects on a daily basis.
           </p>
@@ -57,14 +63,16 @@ export default {
   data() {
     return {
       skills: [
-        "JavaScript (ES6+)",
         "HTML & (S)CSS",
+        "JavaScript (ES6+)",
+        "Typescript",
+        "Next.js",
         "React",
-        "Vue",
+        "Redux",
+        "React Native",
+        "Figma & Adobe XD",
         "Node.js",
-        "Express",
-        "MongoDB",
-        "NativeScript"
+        "Express"
       ]
     };
   }
