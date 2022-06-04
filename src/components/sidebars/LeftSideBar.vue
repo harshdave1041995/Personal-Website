@@ -7,6 +7,7 @@
         :key="index"
         :href="social.href"
         class="social-link"
+        target="_blank"
       >
         <img
           class="social-image"
