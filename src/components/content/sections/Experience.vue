@@ -80,13 +80,28 @@ export default {
             companyName: "ConvertCart",
             link: "https://www.convertcart.com/",
             startDate: "August 2021",
-            lastDate: "Present",
+            lastDate: "December 2022",
             details: [
               "Write modern, performant, maintainable code for a diverse array of SaaS Products",
-              "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, React, and Node"
+              "Work with a variety of different languages, platforms and frameworks such as JavaScript, TypeScript, React, and Node"
             ]
           }
-        }
+        },
+        {
+          name: "American Express",
+          description: {
+            position: "Engineer II",
+            companyName: "American Express",
+            link: "https://www.americanexpress.com/",
+            startDate: "January 2023",
+            lastDate: "Present",
+            details: [
+              "Developing highly interactive web applications for American Express using React",
+              "Developing Common Libraries used internally and Managing CI/CD Pipelines",
+              "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, React, Java, SpringBoot and OracleDB"
+            ]
+          }
+        },
       ],
       activeTab: 0,
       activeClass: "active-company",
